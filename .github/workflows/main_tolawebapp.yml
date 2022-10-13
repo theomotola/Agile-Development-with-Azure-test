@@ -14,8 +14,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
+    steps:     
       - uses: actions/checkout@v2
+      
+      - name: Change Directory
+        run: cd flaskapp
 
       - name: Set up Python version
         uses: actions/setup-python@v1
