@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Change Directory
-        run: cd flaskapp
+        run: cd flaskapp/starter_files
 
       - name: Set up Python version
         uses: actions/setup-python@v1
